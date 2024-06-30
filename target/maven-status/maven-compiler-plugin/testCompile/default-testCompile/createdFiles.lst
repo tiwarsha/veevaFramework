@@ -1,0 +1,4 @@
+com\qa\veeva\extent\ExtentReportListener.class
+com\qa\veeva\coreproducttests\CountsVideosFeedTest.class
+com\qa\veeva\base\BaseTest.class
+com\qa\veeva\coreproducttests\AllProductsTestcase.class

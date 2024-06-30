@@ -1,0 +1,10 @@
+com\qa\veeva\utils\JavaScriptUtil.class
+com\qa\veeva\constants\AppConstants.class
+com\qa\veeva\factory\OptionsManager.class
+com\qa\veeva\utils\ElementUtil.class
+com\qa\veeva\pages\coreproducts\Shop_Men_LandingPage.class
+com\qa\veeva\pages\coreproducts\VideosFeedPage.class
+com\qa\veeva\utils\CustomFileWriter.class
+com\qa\veeva\factory\DriverFactory.class
+com\qa\veeva\pages\coreproducts\CoreProduct_HomePage.class
+com\qa\veeva\utils\CustomRuntimeException.class

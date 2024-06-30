@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-30T14:36:04 IST" name="Suite" finished-at="2024-06-30T14:36:48 IST" duration-ms="43863">
+    <groups>
+    </groups>
+    <test started-at="2024-06-30T14:36:04 IST" name="CountsVideosFeedTest" finished-at="2024-06-30T14:36:26 IST" duration-ms="21360">
+      <class name="com.qa.veeva.coreproducttests.CountsVideosFeedTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.veeva.coreproducttests.CountsVideosFeedTest@414f13fc]" started-at="2024-06-30T14:36:04 IST" name="setup" finished-at="2024-06-30T14:36:10 IST" duration-ms="5586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAllGivenProductCount()[pri:0, instance:com.qa.veeva.coreproducttests.CountsVideosFeedTest@414f13fc]" started-at="2024-06-30T14:36:10 IST" name="getAllGivenProductCount" finished-at="2024-06-30T14:36:25 IST" duration-ms="14893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllGivenProductCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.veeva.coreproducttests.CountsVideosFeedTest@414f13fc]" started-at="2024-06-30T14:36:25 IST" name="tearDown" finished-at="2024-06-30T14:36:26 IST" duration-ms="498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.veeva.coreproducttests.CountsVideosFeedTest -->
+    </test> <!-- CountsVideosFeedTest -->
+    <test started-at="2024-06-30T14:36:04 IST" name="AllProductsTestcase" finished-at="2024-06-30T14:36:48 IST" duration-ms="43863">
+      <class name="com.qa.veeva.coreproducttests.AllProductsTestcase">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.qa.veeva.coreproducttests.AllProductsTestcase@7b66322e]" started-at="2024-06-30T14:36:04 IST" name="setup" finished-at="2024-06-30T14:36:09 IST" duration-ms="5188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="getAllGivenProductCount()[pri:0, instance:com.qa.veeva.coreproducttests.AllProductsTestcase@7b66322e]" started-at="2024-06-30T14:36:10 IST" name="getAllGivenProductCount" finished-at="2024-06-30T14:36:48 IST" duration-ms="37942" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.qa.veeva.coreproducttests.AllProductsTestcase.getAllGivenProductCount(AllProductsTestcase.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllGivenProductCount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.veeva.coreproducttests.AllProductsTestcase@7b66322e]" started-at="2024-06-30T14:36:48 IST" name="tearDown" finished-at="2024-06-30T14:36:48 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.veeva.coreproducttests.AllProductsTestcase -->
+    </test> <!-- AllProductsTestcase -->
+  </suite> <!-- Suite -->
+</testng-results>
